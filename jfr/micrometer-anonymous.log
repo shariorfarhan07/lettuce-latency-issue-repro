@@ -1,0 +1,92 @@
+[0.283s][info][jfr,startup] Started recording 1. The result will be written to:
+[0.283s][info][jfr,startup] 
+[0.283s][info][jfr,startup] C:\Users\Farhan\Desktop\Projects\lettuce-latency-repro\jfr\micrometer-anonymous.jfr
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.5)
+
+2026-10-13T07:31:19.686+06:00  INFO 37480 --- [lettuce-latency-repro] [           main] com.example.repro.ReproApplication       : Starting ReproApplication v0.0.1-SNAPSHOT using Java 17.0.20.1 with PID 37480 (C:\Users\Farhan\Desktop\Projects\lettuce-latency-repro\target\lettuce-latency-repro-0.0.1-SNAPSHOT.jar started by Farhan in C:\Users\Farhan\Desktop\Projects\lettuce-latency-repro)
+2026-10-13T07:31:19.689+06:00  INFO 37480 --- [lettuce-latency-repro] [           main] com.example.repro.ReproApplication       : The following 1 profile is active: "micrometer"
+2026-10-13T07:31:20.382+06:00  INFO 37480 --- [lettuce-latency-repro] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-13T07:31:20.385+06:00  INFO 37480 --- [lettuce-latency-repro] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-13T07:31:20.413+06:00  INFO 37480 --- [lettuce-latency-repro] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2026-10-13T07:31:21.942+06:00  INFO 37480 --- [lettuce-latency-repro] [           main] com.example.repro.LoadGenerator          : Sending 500 PING/s using ANONYMOUS keyword; latency recorder: io.lettuce.core.metrics.MicrometerCommandLatencyRecorder
+2026-10-13T07:31:21.961+06:00  INFO 37480 --- [lettuce-latency-repro] [           main] com.example.repro.ReproApplication       : Started ReproApplication in 2.828 seconds (process running for 3.514)
+2026-10-13T07:31:21.977+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t=  1s  tracked keys=      18  heap used=    38 MiB / max 2,048 MiB
+2026-10-13T07:31:22.962+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t=  2s  tracked keys=     511  heap used=    19 MiB / max 2,048 MiB
+2026-10-13T07:31:23.963+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t=  3s  tracked keys=   1,011  heap used=    23 MiB / max 2,048 MiB
+2026-10-13T07:31:24.962+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t=  4s  tracked keys=   1,511  heap used=    26 MiB / max 2,048 MiB
+2026-10-13T07:31:25.963+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t=  5s  tracked keys=   2,011  heap used=    30 MiB / max 2,048 MiB
+2026-10-13T07:31:26.964+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t=  6s  tracked keys=   2,511  heap used=    33 MiB / max 2,048 MiB
+2026-10-13T07:31:27.964+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t=  7s  tracked keys=   3,011  heap used=    37 MiB / max 2,048 MiB
+2026-10-13T07:31:28.964+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t=  8s  tracked keys=   3,511  heap used=    40 MiB / max 2,048 MiB
+2026-10-13T07:31:29.973+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t=  9s  tracked keys=   4,007  heap used=    42 MiB / max 2,048 MiB
+2026-10-13T07:31:30.964+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 10s  tracked keys=   4,512  heap used=    46 MiB / max 2,048 MiB
+2026-10-13T07:31:31.965+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 11s  tracked keys=   5,011  heap used=    49 MiB / max 2,048 MiB
+2026-10-13T07:31:32.964+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 12s  tracked keys=   5,511  heap used=    51 MiB / max 2,048 MiB
+2026-10-13T07:31:33.963+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 13s  tracked keys=   6,012  heap used=    27 MiB / max 2,048 MiB
+2026-10-13T07:31:34.964+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 14s  tracked keys=   6,511  heap used=    31 MiB / max 2,048 MiB
+2026-10-13T07:31:36.026+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 15s  tracked keys=   7,019  heap used=    34 MiB / max 2,048 MiB
+2026-10-13T07:31:36.965+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 16s  tracked keys=   7,511  heap used=    37 MiB / max 2,048 MiB
+2026-10-13T07:31:37.963+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 17s  tracked keys=   8,010  heap used=    40 MiB / max 2,048 MiB
+2026-10-13T07:31:38.965+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 18s  tracked keys=   8,511  heap used=    42 MiB / max 2,048 MiB
+2026-10-13T07:31:39.965+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 19s  tracked keys=   9,011  heap used=    46 MiB / max 2,048 MiB
+2026-10-13T07:31:40.969+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 20s  tracked keys=   9,512  heap used=    48 MiB / max 2,048 MiB
+2026-10-13T07:31:41.976+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 21s  tracked keys=  10,012  heap used=    34 MiB / max 2,048 MiB
+2026-10-13T07:31:42.981+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 22s  tracked keys=  10,510  heap used=    37 MiB / max 2,048 MiB
+2026-10-13T07:31:43.973+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 23s  tracked keys=  11,013  heap used=    40 MiB / max 2,048 MiB
+2026-10-13T07:31:44.979+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 24s  tracked keys=  11,516  heap used=    43 MiB / max 2,048 MiB
+2026-10-13T07:31:45.972+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 25s  tracked keys=  12,011  heap used=    47 MiB / max 2,048 MiB
+2026-10-13T07:31:46.984+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 26s  tracked keys=  12,518  heap used=    51 MiB / max 2,048 MiB
+2026-10-13T07:31:47.968+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 27s  tracked keys=  13,008  heap used=    42 MiB / max 2,048 MiB
+2026-10-13T07:31:48.973+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 28s  tracked keys=  13,514  heap used=    44 MiB / max 2,048 MiB
+2026-10-13T07:31:49.979+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 29s  tracked keys=  14,016  heap used=    48 MiB / max 2,048 MiB
+2026-10-13T07:31:50.966+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 30s  tracked keys=  14,510  heap used=    51 MiB / max 2,048 MiB
+2026-10-13T07:31:51.974+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 31s  tracked keys=  15,013  heap used=    44 MiB / max 2,048 MiB
+2026-10-13T07:31:52.980+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 32s  tracked keys=  15,516  heap used=    47 MiB / max 2,048 MiB
+2026-10-13T07:31:53.970+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 33s  tracked keys=  16,009  heap used=    50 MiB / max 2,048 MiB
+2026-10-13T07:31:54.976+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 34s  tracked keys=  16,515  heap used=    46 MiB / max 2,048 MiB
+2026-10-13T07:31:55.967+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 35s  tracked keys=  17,010  heap used=    48 MiB / max 2,048 MiB
+2026-10-13T07:31:56.973+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 36s  tracked keys=  17,510  heap used=    52 MiB / max 2,048 MiB
+2026-10-13T07:31:57.979+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 37s  tracked keys=  18,016  heap used=    48 MiB / max 2,048 MiB
+2026-10-13T07:31:58.970+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 38s  tracked keys=  18,513  heap used=    51 MiB / max 2,048 MiB
+2026-10-13T07:31:59.975+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 39s  tracked keys=  19,013  heap used=    54 MiB / max 2,048 MiB
+2026-10-13T07:32:00.982+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 40s  tracked keys=  19,515  heap used=    51 MiB / max 2,048 MiB
+2026-10-13T07:32:01.974+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 41s  tracked keys=  20,009  heap used=    53 MiB / max 2,048 MiB
+2026-10-13T07:32:02.977+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 42s  tracked keys=  20,514  heap used=    56 MiB / max 2,048 MiB
+2026-10-13T07:32:03.969+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 43s  tracked keys=  21,008  heap used=    60 MiB / max 2,048 MiB
+2026-10-13T07:32:04.976+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 44s  tracked keys=  21,512  heap used=    54 MiB / max 2,048 MiB
+2026-10-13T07:32:05.990+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 45s  tracked keys=  22,018  heap used=    57 MiB / max 2,048 MiB
+2026-10-13T07:32:06.988+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 46s  tracked keys=  22,494  heap used=    60 MiB / max 2,048 MiB
+2026-10-13T07:32:07.994+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 47s  tracked keys=  23,004  heap used=    64 MiB / max 2,048 MiB
+2026-10-13T07:32:08.985+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 48s  tracked keys=  23,516  heap used=    58 MiB / max 2,048 MiB
+2026-10-13T07:32:09.974+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 49s  tracked keys=  24,008  heap used=    61 MiB / max 2,048 MiB
+2026-10-13T07:32:10.983+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 50s  tracked keys=  24,509  heap used=    64 MiB / max 2,048 MiB
+2026-10-13T07:32:11.976+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 51s  tracked keys=  24,968  heap used=    72 MiB / max 2,048 MiB
+2026-10-13T07:32:12.986+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 52s  tracked keys=  25,499  heap used=    65 MiB / max 2,048 MiB
+2026-10-13T07:32:13.978+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 53s  tracked keys=  26,004  heap used=    68 MiB / max 2,048 MiB
+2026-10-13T07:32:14.980+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 54s  tracked keys=  26,515  heap used=    71 MiB / max 2,048 MiB
+2026-10-13T07:32:15.985+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 55s  tracked keys=  27,018  heap used=    67 MiB / max 2,048 MiB
+2026-10-13T07:32:16.976+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 56s  tracked keys=  27,514  heap used=    70 MiB / max 2,048 MiB
+2026-10-13T07:32:17.979+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 57s  tracked keys=  28,015  heap used=    74 MiB / max 2,048 MiB
+2026-10-13T07:32:18.971+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 58s  tracked keys=  28,511  heap used=    78 MiB / max 2,048 MiB
+2026-10-13T07:32:19.975+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 59s  tracked keys=  29,012  heap used=    69 MiB / max 2,048 MiB
+2026-10-13T07:32:20.980+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 60s  tracked keys=  29,516  heap used=    72 MiB / max 2,048 MiB
+2026-10-13T07:32:21.971+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 61s  tracked keys=  30,011  heap used=    76 MiB / max 2,048 MiB
+2026-10-13T07:32:22.980+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 62s  tracked keys=  30,516  heap used=    80 MiB / max 2,048 MiB
+2026-10-13T07:32:23.972+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 63s  tracked keys=  31,011  heap used=    73 MiB / max 2,048 MiB
+2026-10-13T07:32:24.977+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 64s  tracked keys=  31,514  heap used=    76 MiB / max 2,048 MiB
+2026-10-13T07:32:25.981+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 65s  tracked keys=  32,014  heap used=    80 MiB / max 2,048 MiB
+2026-10-13T07:32:26.976+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 66s  tracked keys=  32,510  heap used=    85 MiB / max 2,048 MiB
+2026-10-13T07:32:27.975+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 67s  tracked keys=  33,013  heap used=    79 MiB / max 2,048 MiB
+2026-10-13T07:32:28.981+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 68s  tracked keys=  33,514  heap used=    82 MiB / max 2,048 MiB
+2026-10-13T07:32:29.990+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 69s  tracked keys=  34,018  heap used=    87 MiB / max 2,048 MiB
+2026-10-13T07:32:30.979+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 70s  tracked keys=  34,514  heap used=    80 MiB / max 2,048 MiB
+2026-10-13T07:32:31.984+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 71s  tracked keys=  35,017  heap used=    85 MiB / max 2,048 MiB
+2026-10-13T07:32:32.973+06:00  INFO 37480 --- [lettuce-latency-repro] [   scheduling-1] com.example.repro.LatencyReporter        : t= 72s  tracked keys=  35,511  heap used=    82 MiB / max 2,048 MiB

@@ -1,0 +1,1220 @@
+{
+  "builtin-anonymous": {
+    "t0": "2026-10-13T07:28:47.684771+06:00",
+    "collector": "G1New / G1Old",
+    "heapAfterGc": [
+      {
+        "t": 0.11,
+        "usedMiB": 3.2
+      },
+      {
+        "t": 0.485,
+        "usedMiB": 5.0
+      },
+      {
+        "t": 1.889,
+        "usedMiB": 10.1
+      },
+      {
+        "t": 1.896,
+        "usedMiB": 10.1
+      },
+      {
+        "t": 2.067,
+        "usedMiB": 10.8
+      },
+      {
+        "t": 2.084,
+        "usedMiB": 10.8
+      },
+      {
+        "t": 2.239,
+        "usedMiB": 11.5
+      },
+      {
+        "t": 2.439,
+        "usedMiB": 12.7
+      },
+      {
+        "t": 3.862,
+        "usedMiB": 136.3
+      },
+      {
+        "t": 3.878,
+        "usedMiB": 142.3
+      },
+      {
+        "t": 4.345,
+        "usedMiB": 196.9
+      },
+      {
+        "t": 4.558,
+        "usedMiB": 225.0
+      },
+      {
+        "t": 4.576,
+        "usedMiB": 227.0
+      },
+      {
+        "t": 4.674,
+        "usedMiB": 241.0
+      },
+      {
+        "t": 4.944,
+        "usedMiB": 274.5
+      },
+      {
+        "t": 4.961,
+        "usedMiB": 276.5
+      },
+      {
+        "t": 5.11,
+        "usedMiB": 296.5
+      },
+      {
+        "t": 5.271,
+        "usedMiB": 317.4
+      },
+      {
+        "t": 5.515,
+        "usedMiB": 348.4
+      },
+      {
+        "t": 5.537,
+        "usedMiB": 349.4
+      },
+      {
+        "t": 5.674,
+        "usedMiB": 370.0
+      },
+      {
+        "t": 5.893,
+        "usedMiB": 396.4
+      },
+      {
+        "t": 6.233,
+        "usedMiB": 438.5
+      },
+      {
+        "t": 6.254,
+        "usedMiB": 441.5
+      },
+      {
+        "t": 6.457,
+        "usedMiB": 468.0
+      },
+      {
+        "t": 6.72,
+        "usedMiB": 499.5
+      },
+      {
+        "t": 7.142,
+        "usedMiB": 552.5
+      },
+      {
+        "t": 7.418,
+        "usedMiB": 588.5
+      },
+      {
+        "t": 7.677,
+        "usedMiB": 623.0
+      },
+      {
+        "t": 7.939,
+        "usedMiB": 657.0
+      },
+      {
+        "t": 8.198,
+        "usedMiB": 690.0
+      },
+      {
+        "t": 8.228,
+        "usedMiB": 694.0
+      },
+      {
+        "t": 8.455,
+        "usedMiB": 723.0
+      },
+      {
+        "t": 8.896,
+        "usedMiB": 771.5
+      },
+      {
+        "t": 9.597,
+        "usedMiB": 856.5
+      },
+      {
+        "t": 10.068,
+        "usedMiB": 915.5
+      },
+      {
+        "t": 10.472,
+        "usedMiB": 967.5
+      },
+      {
+        "t": 10.883,
+        "usedMiB": 1020.0
+      },
+      {
+        "t": 11.294,
+        "usedMiB": 1071.5
+      },
+      {
+        "t": 11.332,
+        "usedMiB": 1076.5
+      },
+      {
+        "t": 11.983,
+        "usedMiB": 1156.0
+      },
+      {
+        "t": 12.642,
+        "usedMiB": 1227.0
+      },
+      {
+        "t": 13.679,
+        "usedMiB": 1352.5
+      },
+      {
+        "t": 14.35,
+        "usedMiB": 1436.5
+      },
+      {
+        "t": 14.989,
+        "usedMiB": 1515.5
+      },
+      {
+        "t": 15.633,
+        "usedMiB": 1595.0
+      },
+      {
+        "t": 16.286,
+        "usedMiB": 1674.5
+      },
+      {
+        "t": 16.332,
+        "usedMiB": 1681.5
+      },
+      {
+        "t": 17.045,
+        "usedMiB": 1768.0
+      },
+      {
+        "t": 17.802,
+        "usedMiB": 1849.5
+      }
+    ],
+    "gc": [
+      {
+        "t": 0.107,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 2.49
+      },
+      {
+        "t": 0.483,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 2.51
+      },
+      {
+        "t": 1.885,
+        "name": "G1New",
+        "cause": "Metadata GC Threshold",
+        "pauseMs": 4.48
+      },
+      {
+        "t": 1.889,
+        "name": "G1Old",
+        "cause": "Metadata GC Threshold",
+        "pauseMs": 1.08
+      },
+      {
+        "t": 2.064,
+        "name": "G1New",
+        "cause": "G1 Preventive Collection",
+        "pauseMs": 3.27
+      },
+      {
+        "t": 2.08,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 4.07
+      },
+      {
+        "t": 2.237,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 1.76
+      },
+      {
+        "t": 2.435,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 4.26
+      },
+      {
+        "t": 3.834,
+        "name": "G1New",
+        "cause": "Metadata GC Threshold",
+        "pauseMs": 28.02
+      },
+      {
+        "t": 3.862,
+        "name": "G1Old",
+        "cause": "Metadata GC Threshold",
+        "pauseMs": 2.16
+      },
+      {
+        "t": 4.335,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 10.14
+      },
+      {
+        "t": 4.554,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 4.53
+      },
+      {
+        "t": 4.559,
+        "name": "G1Old",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 1.67
+      },
+      {
+        "t": 4.672,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 2.46
+      },
+      {
+        "t": 4.939,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 4.94
+      },
+      {
+        "t": 4.944,
+        "name": "G1Old",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 1.55
+      },
+      {
+        "t": 5.107,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 3.24
+      },
+      {
+        "t": 5.268,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 3.38
+      },
+      {
+        "t": 5.511,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 4.25
+      },
+      {
+        "t": 5.515,
+        "name": "G1Old",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 1.92
+      },
+      {
+        "t": 5.671,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 3.7
+      },
+      {
+        "t": 5.889,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 4.08
+      },
+      {
+        "t": 6.227,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 5.85
+      },
+      {
+        "t": 6.233,
+        "name": "G1Old",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 2.14
+      },
+      {
+        "t": 6.453,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 4.49
+      },
+      {
+        "t": 6.714,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 5.33
+      },
+      {
+        "t": 7.134,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 7.48
+      },
+      {
+        "t": 7.413,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 5.13
+      },
+      {
+        "t": 7.673,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 4.33
+      },
+      {
+        "t": 7.935,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 4.16
+      },
+      {
+        "t": 8.193,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 4.95
+      },
+      {
+        "t": 8.198,
+        "name": "G1Old",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 3.46
+      },
+      {
+        "t": 8.45,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 4.85
+      },
+      {
+        "t": 8.888,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 8.1
+      },
+      {
+        "t": 9.586,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 11.45
+      },
+      {
+        "t": 10.06,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 8.28
+      },
+      {
+        "t": 10.465,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 6.88
+      },
+      {
+        "t": 10.876,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 6.68
+      },
+      {
+        "t": 11.286,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 8.02
+      },
+      {
+        "t": 11.294,
+        "name": "G1Old",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 4.68
+      },
+      {
+        "t": 11.971,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 11.52
+      },
+      {
+        "t": 12.621,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 21.94
+      },
+      {
+        "t": 13.652,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 27.26
+      },
+      {
+        "t": 14.331,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 19.05
+      },
+      {
+        "t": 14.973,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 15.62
+      },
+      {
+        "t": 15.62,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 13.23
+      },
+      {
+        "t": 16.272,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 13.86
+      },
+      {
+        "t": 16.286,
+        "name": "G1Old",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 2.58
+      },
+      {
+        "t": 17.031,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 14.27
+      },
+      {
+        "t": 17.783,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 18.35
+      }
+    ],
+    "gcCount": 50,
+    "gcTotalPauseMs": 363.9,
+    "gcMaxPauseMs": 28.02,
+    "fullGcCount": 0,
+    "allocationByClass": [
+      {
+        "name": "[J",
+        "share": 0.706
+      },
+      {
+        "name": "[B",
+        "share": 0.094
+      },
+      {
+        "name": "org/HdrHistogram/Histogram",
+        "share": 0.029
+      },
+      {
+        "name": "org/LatencyUtils/TimeCappedMovingAverageIntervalEstimator",
+        "share": 0.025
+      },
+      {
+        "name": "java/lang/String",
+        "share": 0.024
+      },
+      {
+        "name": "org/HdrHistogram/HistogramIterationValue",
+        "share": 0.02
+      }
+    ],
+    "allocationBySite": [
+      {
+        "name": "io.lettuce.core.metrics.DefaultCommandLatencyCollector$Latencies.<init>",
+        "share": 0.83
+      },
+      {
+        "name": "java.util.Arrays.copyOfRange",
+        "share": 0.017
+      },
+      {
+        "name": "java.util.Arrays.copyOf",
+        "share": 0.017
+      },
+      {
+        "name": "com.example.repro.ReproApplication.main",
+        "share": 0.016
+      },
+      {
+        "name": "io.lettuce.core.metrics.CommandLatencyId.<init>",
+        "share": 0.014
+      },
+      {
+        "name": "jdk.internal.misc.Unsafe.allocateUninitializedArray",
+        "share": 0.013
+      }
+    ],
+    "oldObjectsByType": [
+      {
+        "name": "[J",
+        "share": 0.976
+      },
+      {
+        "name": "[B",
+        "share": 0.008
+      },
+      {
+        "name": "java/lang/Class",
+        "share": 0.008
+      },
+      {
+        "name": "org/HdrHistogram/Histogram",
+        "share": 0.008
+      }
+    ],
+    "oldObjectsBySite": [
+      {
+        "name": "io.lettuce.core.metrics.DefaultCommandLatencyCollector$Latencies.<init>",
+        "share": 0.984
+      },
+      {
+        "name": "java.lang.Class.getDeclaredMethods0",
+        "share": 0.008
+      },
+      {
+        "name": "java.lang.ClassLoader.defineClass0",
+        "share": 0.008
+      }
+    ]
+  },
+  "builtin-stable": {
+    "t0": "2026-10-13T07:30:03.282367+06:00",
+    "collector": "G1New / G1Old",
+    "heapAfterGc": [
+      {
+        "t": 0.118,
+        "usedMiB": 3.3
+      },
+      {
+        "t": 0.473,
+        "usedMiB": 4.9
+      },
+      {
+        "t": 1.953,
+        "usedMiB": 10.1
+      },
+      {
+        "t": 1.962,
+        "usedMiB": 10.1
+      },
+      {
+        "t": 2.224,
+        "usedMiB": 10.8
+      },
+      {
+        "t": 2.238,
+        "usedMiB": 11.2
+      },
+      {
+        "t": 2.567,
+        "usedMiB": 11.4
+      },
+      {
+        "t": 2.81,
+        "usedMiB": 12.9
+      },
+      {
+        "t": 3.012,
+        "usedMiB": 14.1
+      },
+      {
+        "t": 4.067,
+        "usedMiB": 16.4
+      },
+      {
+        "t": 4.08,
+        "usedMiB": 17.4
+      }
+    ],
+    "gc": [
+      {
+        "t": 0.116,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 2.0
+      },
+      {
+        "t": 0.471,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 2.3
+      },
+      {
+        "t": 1.948,
+        "name": "G1New",
+        "cause": "Metadata GC Threshold",
+        "pauseMs": 4.8
+      },
+      {
+        "t": 1.953,
+        "name": "G1Old",
+        "cause": "Metadata GC Threshold",
+        "pauseMs": 1.84
+      },
+      {
+        "t": 2.22,
+        "name": "G1New",
+        "cause": "G1 Preventive Collection",
+        "pauseMs": 3.95
+      },
+      {
+        "t": 2.234,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 4.13
+      },
+      {
+        "t": 2.564,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 2.55
+      },
+      {
+        "t": 2.805,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 4.53
+      },
+      {
+        "t": 3.006,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 5.8
+      },
+      {
+        "t": 4.064,
+        "name": "G1New",
+        "cause": "Metadata GC Threshold",
+        "pauseMs": 2.78
+      },
+      {
+        "t": 4.067,
+        "name": "G1Old",
+        "cause": "Metadata GC Threshold",
+        "pauseMs": 1.73
+      }
+    ],
+    "gcCount": 11,
+    "gcTotalPauseMs": 36.4,
+    "gcMaxPauseMs": 5.8,
+    "fullGcCount": 0,
+    "allocationByClass": [
+      {
+        "name": "[B",
+        "share": 0.52
+      },
+      {
+        "name": "java/lang/String",
+        "share": 0.119
+      },
+      {
+        "name": "java/net/URL",
+        "share": 0.047
+      },
+      {
+        "name": "org/springframework/boot/loader/net/protocol/jar/JarFileUrlKey",
+        "share": 0.032
+      },
+      {
+        "name": "io/lettuce/core/output/StatusOutput",
+        "share": 0.02
+      },
+      {
+        "name": "[Ljava/lang/Class;",
+        "share": 0.017
+      }
+    ],
+    "allocationBySite": [
+      {
+        "name": "java.util.Arrays.copyOfRange",
+        "share": 0.129
+      },
+      {
+        "name": "com.example.repro.ReproApplication.main",
+        "share": 0.129
+      },
+      {
+        "name": "java.util.Arrays.copyOf",
+        "share": 0.077
+      },
+      {
+        "name": "jdk.internal.misc.Unsafe.allocateUninitializedArray",
+        "share": 0.071
+      },
+      {
+        "name": "java.lang.StringLatin1.newString",
+        "share": 0.065
+      },
+      {
+        "name": "java.util.zip.ZipFile$Source.initCEN",
+        "share": 0.061
+      }
+    ],
+    "oldObjectsByType": [
+      {
+        "name": "[B",
+        "share": 0.22
+      },
+      {
+        "name": "java/lang/reflect/Method",
+        "share": 0.1
+      },
+      {
+        "name": "[J",
+        "share": 0.1
+      },
+      {
+        "name": "[Ljava/lang/Object;",
+        "share": 0.08
+      },
+      {
+        "name": "java/lang/Class",
+        "share": 0.08
+      },
+      {
+        "name": "[I",
+        "share": 0.04
+      }
+    ],
+    "oldObjectsBySite": [
+      {
+        "name": "com.example.repro.ReproApplication.main",
+        "share": 0.24
+      },
+      {
+        "name": "io.lettuce.core.metrics.DefaultCommandLatencyCollector$Latencies.<init>",
+        "share": 0.1
+      },
+      {
+        "name": "java.lang.Class.initClassName",
+        "share": 0.06
+      },
+      {
+        "name": "io.netty.util.internal.InternalThreadLocalMap.fastGet",
+        "share": 0.04
+      },
+      {
+        "name": "java.lang.ClassLoader.defineClass1",
+        "share": 0.04
+      },
+      {
+        "name": "java.lang.Class.getDeclaredMethods0",
+        "share": 0.04
+      }
+    ]
+  },
+  "micrometer-anonymous": {
+    "t0": "2026-10-13T07:31:18.723760+06:00",
+    "collector": "G1New / G1Old",
+    "heapAfterGc": [
+      {
+        "t": 0.137,
+        "usedMiB": 3.2
+      },
+      {
+        "t": 0.61,
+        "usedMiB": 4.9
+      },
+      {
+        "t": 1.975,
+        "usedMiB": 10.4
+      },
+      {
+        "t": 1.984,
+        "usedMiB": 11.4
+      },
+      {
+        "t": 2.245,
+        "usedMiB": 11.1
+      },
+      {
+        "t": 2.259,
+        "usedMiB": 11.1
+      },
+      {
+        "t": 2.45,
+        "usedMiB": 11.7
+      },
+      {
+        "t": 2.769,
+        "usedMiB": 15.4
+      },
+      {
+        "t": 4.16,
+        "usedMiB": 18.5
+      },
+      {
+        "t": 4.176,
+        "usedMiB": 19.5
+      },
+      {
+        "t": 14.864,
+        "usedMiB": 26.7
+      },
+      {
+        "t": 22.745,
+        "usedMiB": 33.8
+      },
+      {
+        "t": 28.258,
+        "usedMiB": 39.6
+      },
+      {
+        "t": 32.414,
+        "usedMiB": 43.6
+      },
+      {
+        "t": 32.444,
+        "usedMiB": 42.2
+      },
+      {
+        "t": 35.819,
+        "usedMiB": 45.2
+      },
+      {
+        "t": 39.114,
+        "usedMiB": 48.2
+      },
+      {
+        "t": 39.146,
+        "usedMiB": 48.2
+      },
+      {
+        "t": 41.68,
+        "usedMiB": 50.5
+      },
+      {
+        "t": 42.254,
+        "usedMiB": 50.9
+      },
+      {
+        "t": 45.925,
+        "usedMiB": 53.7
+      },
+      {
+        "t": 45.975,
+        "usedMiB": 53.7
+      },
+      {
+        "t": 49.269,
+        "usedMiB": 56.8
+      },
+      {
+        "t": 49.864,
+        "usedMiB": 57.2
+      },
+      {
+        "t": 53.314,
+        "usedMiB": 63.8
+      },
+      {
+        "t": 53.428,
+        "usedMiB": 63.8
+      },
+      {
+        "t": 56.249,
+        "usedMiB": 66.4
+      },
+      {
+        "t": 56.822,
+        "usedMiB": 66.3
+      }
+    ],
+    "gc": [
+      {
+        "t": 0.134,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 2.86
+      },
+      {
+        "t": 0.606,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 3.15
+      },
+      {
+        "t": 1.97,
+        "name": "G1New",
+        "cause": "Metadata GC Threshold",
+        "pauseMs": 5.06
+      },
+      {
+        "t": 1.975,
+        "name": "G1Old",
+        "cause": "Metadata GC Threshold",
+        "pauseMs": 1.8
+      },
+      {
+        "t": 2.241,
+        "name": "G1New",
+        "cause": "G1 Preventive Collection",
+        "pauseMs": 4.34
+      },
+      {
+        "t": 2.255,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 4.05
+      },
+      {
+        "t": 2.448,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 1.97
+      },
+      {
+        "t": 2.76,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 8.32
+      },
+      {
+        "t": 4.156,
+        "name": "G1New",
+        "cause": "Metadata GC Threshold",
+        "pauseMs": 4.49
+      },
+      {
+        "t": 4.16,
+        "name": "G1Old",
+        "cause": "Metadata GC Threshold",
+        "pauseMs": 2.03
+      },
+      {
+        "t": 14.852,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 11.31
+      },
+      {
+        "t": 22.737,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 8.0
+      },
+      {
+        "t": 28.253,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 5.16
+      },
+      {
+        "t": 32.41,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 4.08
+      },
+      {
+        "t": 32.414,
+        "name": "G1Old",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 1.73
+      },
+      {
+        "t": 35.815,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 3.72
+      },
+      {
+        "t": 39.111,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 3.4
+      },
+      {
+        "t": 39.114,
+        "name": "G1Old",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 1.77
+      },
+      {
+        "t": 41.677,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 3.11
+      },
+      {
+        "t": 42.252,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 2.69
+      },
+      {
+        "t": 45.921,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 3.82
+      },
+      {
+        "t": 45.925,
+        "name": "G1Old",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 2.01
+      },
+      {
+        "t": 49.264,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 5.4
+      },
+      {
+        "t": 49.861,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 3.66
+      },
+      {
+        "t": 53.297,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 17.72
+      },
+      {
+        "t": 53.315,
+        "name": "G1Old",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 15.76
+      },
+      {
+        "t": 56.246,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 3.55
+      },
+      {
+        "t": 56.819,
+        "name": "G1New",
+        "cause": "G1 Evacuation Pause",
+        "pauseMs": 3.0
+      }
+    ],
+    "gcCount": 28,
+    "gcTotalPauseMs": 138.0,
+    "gcMaxPauseMs": 17.72,
+    "fullGcCount": 0,
+    "allocationByClass": [
+      {
+        "name": "[B",
+        "share": 0.404
+      },
+      {
+        "name": "java/lang/String",
+        "share": 0.088
+      },
+      {
+        "name": "[Ljava/lang/Object;",
+        "share": 0.08
+      },
+      {
+        "name": "io/micrometer/core/instrument/distribution/DistributionStatisticConfig",
+        "share": 0.045
+      },
+      {
+        "name": "java/net/URL",
+        "share": 0.025
+      },
+      {
+        "name": "io/micrometer/core/instrument/Tags$ArrayIterator",
+        "share": 0.016
+      }
+    ],
+    "allocationBySite": [
+      {
+        "name": "io.lettuce.core.metrics.MicrometerCommandLatencyRecorder.firstResponseTimer",
+        "share": 0.132
+      },
+      {
+        "name": "io.lettuce.core.metrics.MicrometerCommandLatencyRecorder.completionTimer",
+        "share": 0.124
+      },
+      {
+        "name": "java.util.Arrays.copyOfRange",
+        "share": 0.082
+      },
+      {
+        "name": "com.example.repro.ReproApplication.main",
+        "share": 0.076
+      },
+      {
+        "name": "com.example.repro.LatencyReporter.micrometerTimers",
+        "share": 0.07
+      },
+      {
+        "name": "java.util.Arrays.copyOf",
+        "share": 0.057
+      }
+    ],
+    "oldObjectsByType": [
+      {
+        "name": "[B",
+        "share": 0.208
+      },
+      {
+        "name": "io/micrometer/core/instrument/Meter$Id",
+        "share": 0.104
+      },
+      {
+        "name": "java/util/HashMap$Node",
+        "share": 0.083
+      },
+      {
+        "name": "java/util/concurrent/atomic/LongAdder",
+        "share": 0.083
+      },
+      {
+        "name": "io/micrometer/core/instrument/cumulative/CumulativeTimer",
+        "share": 0.078
+      },
+      {
+        "name": "java/util/concurrent/ConcurrentHashMap$Node",
+        "share": 0.073
+      }
+    ],
+    "oldObjectsBySite": [
+      {
+        "name": "io.lettuce.core.metrics.MicrometerCommandLatencyRecorder.firstResponseTimer",
+        "share": 0.38
+      },
+      {
+        "name": "io.lettuce.core.metrics.MicrometerCommandLatencyRecorder.completionTimer",
+        "share": 0.37
+      },
+      {
+        "name": "io.lettuce.core.metrics.CommandLatencyId.<init>",
+        "share": 0.036
+      },
+      {
+        "name": "io.lettuce.core.metrics.MicrometerCommandLatencyRecorder.recordCommandLatency",
+        "share": 0.031
+      },
+      {
+        "name": "com.example.repro.ReproApplication.main",
+        "share": 0.021
+      },
+      {
+        "name": "io.lettuce.core.metrics.CommandLatencyId.create",
+        "share": 0.021
+      }
+    ]
+  }
+}

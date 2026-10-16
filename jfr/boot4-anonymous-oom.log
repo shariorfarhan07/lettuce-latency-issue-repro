@@ -1,0 +1,37 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.6)
+
+2026-10-16T07:59:48.115+06:00  INFO 32584 --- [lettuce-latency-repro] [           main] [                                                 ] com.example.repro.ReproApplication       : Starting ReproApplication v0.0.1-SNAPSHOT using Java 25.0.3 with PID 32584 (C:\Users\Farhan\Desktop\Projects\lettuce-latency-repro\target\tep-filter.jar started by Farhan in C:\Users\Farhan\Desktop\Projects\lettuce-latency-repro)
+2026-10-16T07:59:48.131+06:00  INFO 32584 --- [lettuce-latency-repro] [           main] [                                                 ] com.example.repro.ReproApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-10-16T07:59:48.763+06:00  INFO 32584 --- [lettuce-latency-repro] [           main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-16T07:59:48.766+06:00  INFO 32584 --- [lettuce-latency-repro] [           main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-16T07:59:48.800+06:00  INFO 32584 --- [lettuce-latency-repro] [           main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2026-10-16T07:59:50.769+06:00  INFO 32584 --- [lettuce-latency-repro] [           main] [                                                 ] com.example.repro.LoadGenerator          : Sending 500 PING/s using ANONYMOUS keyword; latency recorder: io.lettuce.core.metrics.DefaultCommandLatencyCollector
+2026-10-16T07:59:50.781+06:00  INFO 32584 --- [lettuce-latency-repro] [           main] [                                                 ] com.example.repro.ReproApplication       : Started ReproApplication in 3.077 seconds (process running for 3.532)
+2026-10-16T07:59:50.785+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad1851641d41fc9b3b146827adee14f-b3b146827adee14f] com.example.repro.LatencyReporter        : t=  1s  tracked keys=      10  heap used=    61 MiB / max 2,048 MiB
+2026-10-16T07:59:50.786+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad1851641d41fc9b3b146827adee14f-b3b146827adee14f] com.example.repro.LatencyReporter        : Sample keys: [local:any -> localhost/127.0.0.1:6379, commandType=com.example.repro.LoadGenerator$1@24030d20], [local:any -> localhost/127.0.0.1:6379, commandType=com.example.repro.LoadGenerator$1@3882d20a], [local:any -> localhost/127.0.0.1:6379, commandType=PING]
+2026-10-16T07:59:51.782+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad185171c5fe6954d41469fd0339382-4d41469fd0339382] com.example.repro.LatencyReporter        : t=  2s  tracked keys=     509  heap used=   185 MiB / max 2,048 MiB
+2026-10-16T07:59:52.782+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad18518f3c6a9399443afb427ee4933-9443afb427ee4933] com.example.repro.LatencyReporter        : t=  3s  tracked keys=   1,009  heap used=   274 MiB / max 2,048 MiB
+2026-10-16T07:59:53.781+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad185192e1ed6f2fa6f3bc5900019d8-fa6f3bc5900019d8] com.example.repro.LatencyReporter        : t=  4s  tracked keys=   1,509  heap used=   401 MiB / max 2,048 MiB
+2026-10-16T07:59:54.782+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad1851adc0ced3db06f35aa26d1388d-b06f35aa26d1388d] com.example.repro.LatencyReporter        : t=  5s  tracked keys=   2,009  heap used=   523 MiB / max 2,048 MiB
+2026-10-16T07:59:55.781+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad1851b5c730b79e85a9cb37743eed9-e85a9cb37743eed9] com.example.repro.LatencyReporter        : t=  6s  tracked keys=   2,509  heap used=   650 MiB / max 2,048 MiB
+2026-10-16T07:59:56.781+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad1851ca3c03bbbf8d9692bde779490-f8d9692bde779490] com.example.repro.LatencyReporter        : t=  7s  tracked keys=   3,008  heap used=   769 MiB / max 2,048 MiB
+2026-10-16T07:59:57.782+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad1851d569689c49b63b5bd59cd0608-9b63b5bd59cd0608] com.example.repro.LatencyReporter        : t=  8s  tracked keys=   3,509  heap used=   895 MiB / max 2,048 MiB
+2026-10-16T07:59:58.782+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad1851e10d6795276dd5edc3be26560-76dd5edc3be26560] com.example.repro.LatencyReporter        : t=  9s  tracked keys=   4,009  heap used= 1,019 MiB / max 2,048 MiB
+2026-10-16T07:59:59.781+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad1851f785e506674e134a5dd635474-74e134a5dd635474] com.example.repro.LatencyReporter        : t= 10s  tracked keys=   4,509  heap used= 1,137 MiB / max 2,048 MiB
+2026-10-16T08:00:00.781+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad18520bb8336863b99a23aad6cbed3-3b99a23aad6cbed3] com.example.repro.LatencyReporter        : t= 11s  tracked keys=   5,008  heap used= 1,258 MiB / max 2,048 MiB
+2026-10-16T08:00:01.781+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad1852118542924b5935e9ea30c3fc1-b5935e9ea30c3fc1] com.example.repro.LatencyReporter        : t= 12s  tracked keys=   5,509  heap used= 1,382 MiB / max 2,048 MiB
+2026-10-16T08:00:02.781+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad18522a9604e9ac4a7892540430bcb-c4a7892540430bcb] com.example.repro.LatencyReporter        : t= 13s  tracked keys=   6,008  heap used= 1,505 MiB / max 2,048 MiB
+2026-10-16T08:00:03.782+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad18523a4279a9fc85f12c8561f1414-c85f12c8561f1414] com.example.repro.LatencyReporter        : t= 14s  tracked keys=   6,509  heap used= 1,619 MiB / max 2,048 MiB
+2026-10-16T08:00:04.781+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad18524a1eeff5c9bce7c855ca2f1fe-9bce7c855ca2f1fe] com.example.repro.LatencyReporter        : t= 15s  tracked keys=   7,008  heap used= 1,741 MiB / max 2,048 MiB
+2026-10-16T08:00:05.782+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad18525d9fbf52248dfccdb871652c8-48dfccdb871652c8] com.example.repro.LatencyReporter        : t= 16s  tracked keys=   7,509  heap used= 1,862 MiB / max 2,048 MiB
+2026-10-16T08:00:06.781+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad18526cf6e6c39d8554284f69a5db4-d8554284f69a5db4] com.example.repro.LatencyReporter        : t= 17s  tracked keys=   8,009  heap used= 1,979 MiB / max 2,048 MiB
+2026-10-16T08:00:07.974+06:00  INFO 32584 --- [lettuce-latency-repro] [   scheduling-1] [6ad18527ebf3a62a714952f0f025f359-714952f0f025f359] com.example.repro.LatencyReporter        : t= 18s  tracked keys=   8,461  heap used= 2,003 MiB / max 2,048 MiB
+Terminating due to java.lang.OutOfMemoryError: Java heap space
